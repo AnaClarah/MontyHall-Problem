@@ -3,7 +3,7 @@ let scoreMudar = 0;
 let scoreNaoMudar = 0;
 let tentativasMudar = 0;
 let tentativasNaoMudar = 0;
-for(let i = 0; i < 100; i++) {
+for(let i = 0; i < 1000; i++) {
 	escolherPorta(true).then(porta => {
 		tentativasMudar++;
 		if(porta) {
