@@ -8,14 +8,14 @@ for(let i = 0; i < 100; i++) {
 		tentativasMudar++;
 		if(porta) {
 			scoreMudar++;
-			console.log(`Porcentage de acertos mudando de porta: ${((scoreMudar/tentativasMudar)*100).toFixed(1)}%`);
+			console.log(`Porcentagem de acertos mudando de porta: ${((scoreMudar/tentativasMudar)*100).toFixed(1)}%`);
 		}
 	});
 	escolherPorta(false).then(porta => {
 		tentativasNaoMudar++;
 		if(porta) {
 			scoreNaoMudar++;
-			console.log(`Porcentage de acertos não mudando de porta: ${((scoreNaoMudar/tentativasNaoMudar)*100).toFixed(1)}`);
+			console.log(`Porcentagem de acertos não mudando de porta: ${((scoreNaoMudar/tentativasNaoMudar)*100).toFixed(1)}`);
 		}
 	})
 }
